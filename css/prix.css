@@ -1,0 +1,187 @@
+/* -------- body, header, nav styling ----------------------*/
+body{
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: #011627;
+    color: #e8e6e3;
+}
+.dark-mode{
+    background-color: white;
+    color: black;
+}
+button{
+    font-size: 75%;
+    position:absolute;
+    top:6%;
+    right: 5%;
+}
+button{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+
+header{
+    background-color: #BD0600;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 300%;
+}
+
+nav a{
+    display: inline-block;
+    width: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 0% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+    background-color: #011627;
+    opacity: 0.5
+}
+
+.active{
+    opacity: 1;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    display: inline-block;
+    width:30%;
+    color: #FFFFFF;
+    background-color: #BD0600;
+    font-size: 200%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 3% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+
+}
+/*---------------------------------------------------------------*/
+
+
+h2{
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+}
+
+section{
+    clear:both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 150%;
+}
+
+img:nth-child(odd){
+    float: right;
+    width: 25%;
+    margin: 0% 2% 0% 2%;
+}
+
+img:nth-child(even){
+    float: left;
+    width: 25%;
+    margin: 0% 2% 0% 2%;
+}
+
+
+iframe{
+    display:block;
+    width: 75%;
+    margin:0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media all and (max-height:1000px)
+{    button{
+        font-size: 75%;
+        position:absolute;
+        top:10%;
+        right: 5%;
+     }
+}
+
+@media all and (max-height:600px)
+{    button{
+        font-size: 75%;
+        position:absolute;
+        top:20%;
+        right: 5%;
+     }
+}
+
+
+/* ---------------------------*/
+
+@media all and (max-width:2266px)
+{
+    h2{
+        font-size: 175%;
+    }
+    section{
+        clear:both;
+        display: inline-block;
+        text-indent: 5%;
+        font-size: 125%;
+    }
+}
+
+@media all and (max-width:2000px)
+{
+    h2{
+        font-size: 150%;
+    }
+    img:nth-child(odd){
+        float: none;
+        width: 45%;
+        margin: 0% 2% 0% 2%;
+    }
+
+    img:nth-child(even){
+        float: none;
+        width: 45%;
+        margin: 0% 2% 0% 2%;
+    }
+    section{
+        margin: 3% 3% 3% 3%;
+    }
+    
+}
+
+
+@media all and (max-width:800px)
+{
+
+    img:nth-child(odd){
+        float: none;
+        width: 90%;
+        margin: 0% 2% 0% 2%;
+    }
+
+    img:nth-child(even){
+        float: none;
+        width: 90%;
+        margin: 0% 2% 0% 2%;
+    }
+}
+
+@media all and (max-width:1200px)
+{
+
+    nav a{
+        width: 35%;
+        margin: 0% 5% 2% 5%;
+        padding: 1%;
+        border-radius: 40%;
+    }
+}

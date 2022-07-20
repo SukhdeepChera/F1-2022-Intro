@@ -1,0 +1,175 @@
+/* -------- body, header, nav styling ----------------------*/
+body{
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: #011627;
+    color: #e8e6e3;
+}
+.dark-mode{
+    background-color: white;
+    color: black;
+}
+button{
+    font-size: 75%;
+    position:absolute;
+    top:6%;
+    right: 5%;
+}
+button{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+
+header{
+    background-color: #BD0600;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 300%;
+}
+
+nav a{
+    display: inline-block;
+    width: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 0% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+    background-color: #011627;
+    opacity: 0.5;
+
+}
+
+.active{
+    opacity: 1;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    display: inline-block;
+    width:30%;
+    color: #FFFFFF;
+    background-color: #BD0600;
+    font-size: 200%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 3% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+
+}
+/*---------------------------------------------------------------*/
+
+h2{
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+}
+
+section{
+    clear:both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+h2{
+    font-size: 100%
+}
+
+section:nth-child(odd) img{
+    float: right;
+    width: 30%;
+    margin: 0% 2% 4% 0%;
+}
+
+section:nth-child(even) img{
+    float: left;
+    width: 30%;
+    margin: 0% 2% 4% 0%;
+}
+
+@media all and (max-height:1000px)
+{    button{
+        font-size: 75%;
+        position:absolute;
+        top:10%;
+        right: 5%;
+     }
+}
+
+@media all and (max-height:600px)
+{    button{
+        font-size: 75%;
+        position:absolute;
+        top:20%;
+        right: 5%;
+     }
+}
+
+
+/* --------------------------*/
+
+@media all and (max-width:1550px)
+{
+    section{
+
+        display: inline-block;
+        text-indent: 5%;
+        font-size: 175%;
+    }
+}
+@media all and (max-width:1330px)
+{
+    section{
+
+        display: inline-block;
+        text-indent: 5%;
+        font-size: 150%;
+    }
+}
+@media all and (max-width:1125px)
+{
+    section{
+
+        display: inline-block;
+        text-indent: 5%;
+        font-size: 125%;
+    }
+    footer a, nav a{
+        font-size: 100%;
+    }
+}
+
+@media all and (max-width:950px)
+{
+    section{
+
+        display: inline-block;
+        text-indent: 5%;
+        font-size: 100%;
+        margin: 2% 4% 2% 4%;
+
+    }
+    section:nth-child(odd) img{
+        float: none;
+        width: 90%;
+        margin: 2% 4% 2% 4%;
+    }
+
+    section:nth-child(even) img{
+        float: none;
+        width: 90%;
+        margin: 2% 4% 2% 4%;
+    }
+    h2{
+        font-size: 150%}
+    }
+}

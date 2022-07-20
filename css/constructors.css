@@ -1,0 +1,337 @@
+/* -------- body, header, nav styling ----*/
+body{
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: #011627;
+    color: #e8e6e3;
+}
+.dark-mode{
+    background-color: white;
+    color: black;
+}
+#dark{
+    font-size: 75%;
+    position:absolute;
+    top:5%;
+    right: 3%;
+}
+#hide{
+    font-size: 75%;
+    position:absolute;
+    top:7%;
+    right: 3%;
+}
+button{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+
+header{
+    background-color: #BD0600;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 300%;
+}
+
+nav a{
+    display: inline-block;
+    width: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 0% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+    background-color: #011627;
+    opacity: 0.5
+}
+
+.active{
+    opacity: 1;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    display: inline-block;
+    width:30%;
+    color: #FFFFFF;
+    background-color: #BD0600;
+    font-size: 200%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 3% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 40%;
+
+}
+/*-------------------------------------*/
+
+h2{
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+}
+
+#Merc{
+
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Merc img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+
+#RedBull{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#RedBull img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+
+#McLaren{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#McLaren img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Ferrari{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Ferrari img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Alpine{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Alpine img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#AlphaTauri{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#AlphaTauri img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Williams{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Williams img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Aston{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Aston img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Alfa{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Alfa img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Haas{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Haas img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+@media all and (max-height:1150px)
+{    #dark{
+            font-size: 75%;
+            position:absolute;
+            top:8%;
+            right: 3%;
+           }
+     #hide{
+            font-size: 75%;
+            position:absolute;
+            top:11%;
+            right: 3%;
+            }
+}
+
+@media all and (max-height:750px)
+{    #dark{
+            font-size: 75%;
+            position:absolute;
+            top:13%;
+            right: 3%;
+           }
+     #hide{
+            font-size: 75%;
+            position:absolute;
+            top:19%;
+            right: 3%;
+            }
+}
+
+@media all and (max-height:550px)
+{    #dark{
+            font-size: 75%;
+            position:absolute;
+            top:18%;
+            right: 3%;
+           }
+     #hide{
+            font-size: 75%;
+            position:absolute;
+            top:27%;
+            right: 3%;
+            }
+}
+
+@media all and (max-width:2283px)
+{
+    #Merc,#RedBull,#McLaren,#Ferrari,#Alpine,
+     #AlphaTauri,#Williams,#Aston,#Alfa,#Haas {
+        font-size: 175%;
+    }
+}
+
+@media all and (max-width:1985px)
+{
+    #Merc,#RedBull,#McLaren,#Ferrari,#Alpine,
+     #AlphaTauri,#Williams,#Aston,#Alfa,#Haas {
+        font-size: 150%;
+    }
+}
+@media all and (max-width:1720px)
+{
+    #Merc,#RedBull,#McLaren,#Ferrari,#Alpine,
+     #AlphaTauri,#Williams,#Aston,#Alfa,#Haas {
+        font-size: 125%;
+    }
+}
+@media all and (max-width:1420px)
+{
+    #Merc,#RedBull,#McLaren,#Ferrari,#Alpine,
+     #AlphaTauri,#Williams,#Aston,#Alfa,#Haas {
+        font-size: 100%;
+    }
+    footer a, nav a{
+        font-size: 100%;
+    }
+}
+
+@media all and (max-width:1150px)
+{
+    #Merc,#RedBull,#McLaren,#Ferrari,#Alpine,
+     #AlphaTauri,#Williams,#Aston,#Alfa,#Haas {
+         display: block;
+         width: 90%;
+         margin: 0 auto;
+         margin: 5% 4% 5% 4%;
+    }
+    #Merc img,#RedBull img,#McLaren img,#Ferrari img,#Alpine img,
+     #AlphaTauri img,#Williams img,#Aston img,#Alfa img,#Haas img {
+         display: block;
+         width: 90%;
+         margin: 0 auto;
+         margin: 5% 4% 5% 4%;
+    }
+}
+
+@media all and (max-width:800px)
+{
+
+    nav a{
+        width: 35%;
+        margin: 0% 5% 2% 5%;
+        padding: 1%;
+        border-radius: 40%;
+    }
+}
+@media all and (max-width:550px)
+{
+
+    h1{
+        text-align: left;
+    }
+}

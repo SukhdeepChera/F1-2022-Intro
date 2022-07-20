@@ -1,0 +1,335 @@
+/* -------- body, header, nav styling ----------------------*/
+body{
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: #011627;
+    color: #e8e6e3;
+}
+header{
+    background-color: #BD0600;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+nav a{
+    display: inline-block;
+    width: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 0% 5% 2% 5%;
+    padding: 1%;
+    border-radius: 25%;
+}
+
+.active{
+    background-color: #011627;
+}
+
+footer a{
+    display: inline-block;
+    width: 12%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin: 0% 5% 2% 5%;
+    padding: 1%;
+
+}
+/*---------------------------------------------------------------*/
+
+
+h2{
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+}
+
+#Lewis{
+
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Lewis img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+
+#Russel{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Russel img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+
+#Max{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Max img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Perez{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Perez img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Ricciardo{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Ricciardo img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Lando{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Lando img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Leclerc{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Leclerc img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Sainz{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Sainz img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Stroll{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Stroll img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Vettel{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Vettel img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Ocon{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Ocon img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Alonso{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Alonso img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Gasly{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Gasly img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Yuki{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Yuki img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Zhou{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Zhou img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Bottas{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Bottas img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Latifi{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Latifi img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Albon{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Albon img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Mazepin{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Mazepin img{
+
+    float: left;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
+
+#Mick{
+    clear: both;
+    display: inline-block;
+    text-indent: 5%;
+    font-size: 200%;
+}
+#Mick img{
+
+    float: right;
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+
+}
