@@ -2,6 +2,11 @@
 Final project for Coursera Web-Design-For-Everybody specialization
 
 This is a full website built from scratch using all the things learned from previous courses in the specialization.
+The website is not hosted online, so to view the website, download each of the 4 html files, and the folders, "css"
+"js", and "images".
+
+Alternatively, I have provided a folder, titled "website-images" with some images of the website if 
+you would like to see a basic understanding of how the website looks and works.
 
 
   The website created serves as a primer for the 2022 Formula 1 season with 4 seperate pages. Some of the information
